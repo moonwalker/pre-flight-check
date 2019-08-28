@@ -1,8 +1,9 @@
 # pre-flight-check
 
 [![npmjs](https://img.shields.io/npm/v/@moonwalker/pre-flight-check.svg)](https://www.npmjs.com/package/@moonwalker/pre-flight-check)
+[![renovatebot](https://badges.renovateapi.com/github/moonwalker/pre-flight-check)](https://renovatebot.com/dashboard#github/moonwalker/pre-flight-check)
 
-Linting and formatting configuration for :moon: :_walking:
+Linting, formatting and tooling for :moon: :_walking:
 
 ## Install
 
