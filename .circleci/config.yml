@@ -10,6 +10,7 @@ jobs:
     <<: *defaults
     steps:
       - checkout
+      - run: npm install
       - persist_to_workspace:
           root: ~/repo
           paths: .
@@ -37,7 +38,7 @@ workflows:
               ignore: /.*/
       - publish:
           requires:
-            - build
+            - code-checkout
           filters:
             tags:
               only: /^v.*/
