@@ -1,5 +1,8 @@
 module.exports = {
-  extends: ['airbnb', 'plugin:prettier/recommended'],
+  extends: [
+    'airbnb',
+    './eslint-base'
+  ],
   parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 6,
@@ -13,34 +16,6 @@ module.exports = {
     'jest/globals': true
   },
   rules: {
-    // syntax enforcement, just warn
-    'arrow-parens': 'warn',
-    // syntax enforcement, just warn
-    camelcase: 'warn',
-    // we don't use comma dangle (yet)
-    'comma-dangle': 'off',
-    // not used - coliding with prettier
-    'implicit-arrow-linebreak': 'off',
-    // syntax enforcement, just warn
-    'lines-between-class-members': 'warn',
-    // syntax enforcement, just warn
-    'max-len': 'warn',
-    // syntax enforcement, just warn
-    'no-extra-semi': 'warn',
-    // not used
-    'operator-linebreak': 'off',
-
-    // we use named exports
-    'import/prefer-default-export': 'off',
-    // preffer './sub-dir' instead of 'sub-dir'
-    'import/no-useless-path-segments': 'off',
-    // do not require dependencies on story files
-    'import/no-extraneous-dependencies': ['error', {
-      devDependencies: [
-        '**/*/*.stories.{js,jsx}'
-      ]
-    }],
-
     // correctly validate react-router Link
     'jsx-a11y/anchor-is-valid': ['error', {
       components: ['Link'],
