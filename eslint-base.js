@@ -26,6 +26,10 @@ module.exports = {
     'no-extra-semi': 'warn',
     // not used
     'operator-linebreak': 'off',
+    // syntax enforcement, just warn
+    'prefer-destructuring': 'warn',
+    // syntax enforcement, just warn
+    'radix': 'warn',
 
     // we use named exports
     'import/prefer-default-export': 'off',
