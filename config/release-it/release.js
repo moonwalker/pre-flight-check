@@ -1,15 +1,17 @@
-const { merge } = require('lodash');
 const config = require('./common');
 
-module.exports = merge({}, config, {
+module.exports = {
+  ...config,
   git: {
+    ...config,
     commit: false,
     push: false,
     tag: false,
     requireCleanWorkingDir: false,
-    requireUpstream: false,
+    requireUpstream: false
   },
   npm: {
-    publish: true,
-  },
-});
+    ...config,
+    publish: true
+  }
+};

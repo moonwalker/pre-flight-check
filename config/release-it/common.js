@@ -9,15 +9,15 @@ module.exports = {
     requireUpstream: false,
     tag: true,
     // eslint-disable-next-line no-template-curly-in-string
-    tagName: 'v${version}',
+    tagName: 'v${version}'
   },
   npm: {
-    publish: false,
+    publish: false
   },
   github: {
     draft: false,
     release: false,
     preRelease: false,
-    tokenRef: 'GITHUB_TOKEN',
-  },
+    tokenRef: 'GITHUB_TOKEN'
+  }
 };
