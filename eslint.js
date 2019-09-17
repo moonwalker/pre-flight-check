@@ -48,5 +48,8 @@ module.exports = {
     'react/require-default-props': 'warn',
     // syntax enforcement, just warn
     'react/sort-comp': 'warn',
+  },
+  settings: {
+    'import/extensions': ['.js', '.jsx']
   }
 };
