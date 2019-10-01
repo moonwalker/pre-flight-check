@@ -1,6 +1,6 @@
 {
   "name": "@moonwalker/pre-flight-check",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Linting, formatting and tooling for :moon: :walking:",
   "main": "index.js",
   "scripts": {
