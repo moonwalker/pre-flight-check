@@ -1,12 +1,13 @@
 module.exports = {
-  extends: ['airbnb-base', 'plugin:prettier/recommended'],
+  extends: ['airbnb-base', 'prettier'],
   parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 6,
     sourceType: 'module',
   },
-  plugins: ['jest'],
+  plugins: ['jest', 'prettier'],
   env: {
+    node: true,
     'jest/globals': true
   },
   rules: {
@@ -39,5 +40,7 @@ module.exports = {
     'import/no-extraneous-dependencies': ['error', {
       devDependencies: true
     }],
+
+    'prettier/prettier': ['warn']
   }
 };

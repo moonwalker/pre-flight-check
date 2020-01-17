@@ -7,7 +7,7 @@ const setRulesSeverity = (ruleNames, severity = 'warn') => ruleNames.reduce((agg
 }), {});
 
 module.exports = {
-  extends: ['airbnb', './eslint-base'],
+  extends: ['airbnb', './eslint-base', 'prettier/react'],
   parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 6,
@@ -17,6 +17,9 @@ module.exports = {
     }
   },
   plugins: ['jest'],
+  env: {
+    es6: true
+  },
   rules: {
     // correctly validate react-router Link
     'jsx-a11y/anchor-is-valid': ['error', {
