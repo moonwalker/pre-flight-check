@@ -21,6 +21,8 @@ module.exports = {
     'implicit-arrow-linebreak': 'off',
     // syntax enforcement, just warn
     'lines-between-class-members': 'warn',
+    // not used
+    'max-classes-per-file': 'off',
     // syntax enforcement, just warn
     'max-len': 'warn',
     // syntax enforcement, just warn
