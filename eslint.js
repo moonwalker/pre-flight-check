@@ -44,6 +44,7 @@ module.exports = {
 
     ...setRulesSeverity([
       // helpful, but not required
+      'react/forbid-prop-types',
       'react/require-default-props',
       'react/prop-types',
       'react/jsx-fragments',
