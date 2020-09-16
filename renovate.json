@@ -5,5 +5,5 @@
   "prHourlyLimit": 20,
   "baseBranches": ["update-dependencies"],
   "automerge": true,
-  "semanticCommits": true
+  "semanticCommits": "enabled"
 }
