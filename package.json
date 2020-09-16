@@ -4,6 +4,7 @@
   "description": "Linting, formatting and tooling for :moon: :walking:",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 0",
     "bump": "./scripts/bump.sh",
     "release": "./scripts/release.sh"

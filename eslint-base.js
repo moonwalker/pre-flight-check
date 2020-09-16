@@ -3,7 +3,7 @@ module.exports = {
   parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 6,
-    sourceType: 'module',
+    sourceType: 'module'
   },
   plugins: ['jest', 'prettier'],
   env: {
@@ -32,16 +32,19 @@ module.exports = {
     // syntax enforcement, just warn
     'prefer-destructuring': 'warn',
     // syntax enforcement, just warn
-    'radix': 'warn',
+    radix: 'warn',
 
     // we use named exports
     'import/prefer-default-export': 'off',
     // preffer './sub-dir' instead of 'sub-dir'
     'import/no-useless-path-segments': 'off',
     // do not require dependencies on story files
-    'import/no-extraneous-dependencies': ['error', {
-      devDependencies: true
-    }],
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: true
+      }
+    ],
 
     'prettier/prettier': ['warn']
   }
