@@ -2,6 +2,7 @@
 
 [![npmjs](https://img.shields.io/npm/v/@moonwalker/pre-flight-check.svg)](https://www.npmjs.com/package/@moonwalker/pre-flight-check)
 [![renovatebot](https://badges.renovateapi.com/github/moonwalker/pre-flight-check)](https://renovatebot.com/dashboard#github/moonwalker/pre-flight-check)
+[![ci](https://github.com/moonwalker/pre-flight-check/workflows/ci/badge.svg)](https://github.com/moonwalker/pre-flight-check/actions?query=workflow%3Aci)
 
 Linting, formatting and tooling for :moon: :walking:
 
