@@ -1,8 +1,5 @@
 module.exports = {
-  extends: [
-    'stylelint-config-recommended',
-    'stylelint-config-css-modules'
-  ],
+  extends: ['stylelint-config-recommended', 'stylelint-config-css-modules'],
   rules: {
     'rule-empty-line-before': null,
     'no-missing-end-of-source-newline': null,
