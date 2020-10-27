@@ -27,19 +27,19 @@
   "author": "Vio <vio@moonwalker.tech> ",
   "dependencies": {
     "babel-eslint": "10.1.0",
-    "eslint": "7.10.0",
+    "eslint": "7.12.1",
     "eslint-config-airbnb": "18.2.0",
-    "eslint-config-prettier": "6.12.0",
+    "eslint-config-prettier": "6.14.0",
     "eslint-import-resolver-node": "0.3.4",
     "eslint-import-resolver-webpack": "0.13.0",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-jest": "24.1.0",
-    "eslint-plugin-jsx-a11y": "6.3.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
     "eslint-plugin-prettier": "3.1.4",
-    "eslint-plugin-react": "7.21.3",
-    "eslint-plugin-react-hooks": "4.1.2",
+    "eslint-plugin-react": "7.21.5",
+    "eslint-plugin-react-hooks": "4.2.0",
     "husky": "4.3.0",
-    "lint-staged": "10.4.0",
+    "lint-staged": "10.5.0",
     "lodash": "4.17.20",
     "prettier": "2.1.2",
     "stylelint": "13.7.2",
@@ -49,6 +49,6 @@
   "devDependencies": {
     "@release-it/conventional-changelog": "2.0.0",
     "dotenv": "8.2.0",
-    "release-it": "14.0.3"
+    "release-it": "14.2.0"
   }
 }
