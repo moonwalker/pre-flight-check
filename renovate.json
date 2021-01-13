@@ -1,6 +1,6 @@
 {
   "extends": ["config:base"],
-  "timezone": "CET",
+  "timezone": "Europe/Madrid",
   "schedule": ["after 1am and before 6am"],
   "prHourlyLimit": 20,
   "baseBranches": ["update-dependencies"],
