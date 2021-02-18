@@ -5,5 +5,6 @@
   "prHourlyLimit": 20,
   "baseBranches": ["update-dependencies"],
   "automerge": true,
-  "semanticCommits": "enabled"
+  "semanticCommits": "enabled",
+  "ignoreDeps": ["husky"]
 }
