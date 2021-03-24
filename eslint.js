@@ -14,7 +14,6 @@ module.exports = {
   extends: [
     'airbnb',
     './eslint-base',
-   'prettier/react',
    'plugin:react-hooks/recommended'
   ],
   parser: 'babel-eslint',
