@@ -27,7 +27,7 @@
   "author": "Vio <vio@moonwalker.tech> ",
   "dependencies": {
     "babel-eslint": "10.1.0",
-    "eslint": "7.22.0",
+    "eslint": "7.23.0",
     "eslint-config-airbnb": "18.2.1",
     "eslint-config-prettier": "8.1.0",
     "eslint-import-resolver-node": "0.3.4",
