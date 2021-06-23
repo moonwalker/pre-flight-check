@@ -12,6 +12,7 @@ module.exports = {
   },
   npm: {
     ...config,
-    publish: true
+    publish: true,
+    ignoreVersion: true
   }
 };
