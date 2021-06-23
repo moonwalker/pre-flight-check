@@ -6,5 +6,10 @@ module.exports = {
     ...config.git,
     // eslint-disable-next-line no-template-curly-in-string
     commitMessage: 'DROP - release ${version}'
+  },
+  plugins: {
+    '@release-it/conventional-changelog': {
+      preset: 'angular'
+    }
   }
 };

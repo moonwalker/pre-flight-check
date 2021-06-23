@@ -14,5 +14,8 @@ module.exports = {
     ...config,
     publish: true,
     ignoreVersion: true
+  },
+  plugins: {
+    '@release-it/conventional-changelog': false
   }
 };
