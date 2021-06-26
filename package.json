@@ -41,7 +41,7 @@
     "husky": "4.3.8",
     "lint-staged": "11.0.0",
     "lodash": "4.17.21",
-    "prettier": "2.3.1",
+    "prettier": "2.3.2",
     "stylelint": "13.13.1",
     "stylelint-config-css-modules": "2.2.0",
     "stylelint-config-recommended": "5.0.0"
