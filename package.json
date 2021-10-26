@@ -26,7 +26,8 @@
   },
   "author": "Vio <vio@moonwalker.tech> ",
   "dependencies": {
-    "babel-eslint": "10.1.0",
+    "@babel/core": "^7.15.8",
+    "@babel/eslint-parser": "^7.15.8",
     "eslint": "8.1.0",
     "eslint-config-airbnb": "18.2.1",
     "eslint-config-prettier": "8.3.0",
