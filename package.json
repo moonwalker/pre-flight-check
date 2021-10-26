@@ -47,7 +47,7 @@
     "stylelint-config-recommended": "6.0.0"
   },
   "devDependencies": {
-    "@release-it/conventional-changelog": "2.0.1",
+    "@release-it/conventional-changelog": "3.3.0",
     "dotenv": "10.0.0",
     "release-it": "14.11.6"
   }
