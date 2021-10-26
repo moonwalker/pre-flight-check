@@ -16,7 +16,7 @@ module.exports = {
     './eslint-base',
    'plugin:react-hooks/recommended'
   ],
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
   parserOptions: {
     ecmaVersion: 6,
     sourceType: 'module',
