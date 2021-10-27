@@ -40,7 +40,7 @@
     "eslint-plugin-react": "7.26.1",
     "eslint-plugin-react-hooks": "4.2.1-alpha-4298ddbc5-20211023",
     "husky": "4.3.8",
-    "lint-staged": "11.2.5",
+    "lint-staged": "11.2.6",
     "lodash": "4.17.21",
     "prettier": "2.4.1",
     "stylelint": "14.0.0",
