@@ -3,7 +3,8 @@ module.exports = {
   parser: '@babel/eslint-parser',
   parserOptions: {
     ecmaVersion: 6,
-    sourceType: 'module'
+    sourceType: 'module',
+    requireConfigFile: false
   },
   plugins: ['jest', 'prettier'],
   env: {
