@@ -53,6 +53,15 @@ module.exports = {
       }
     ],
 
+    // Consistent arrow functions for functional components
+    'react/function-component-definition': [
+      'warn',
+      {
+        namedComponents: 'arrow-function',
+        unnamedComponents: 'arrow-function'
+      }
+    ],
+
     // @TODO
     'react/react-in-jsx-scope': 'off',
 
