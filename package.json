@@ -28,28 +28,28 @@
   "dependencies": {
     "@babel/core": "^7.15.8",
     "@babel/eslint-parser": "^7.15.8",
-    "eslint": "8.10.0",
+    "eslint": "8.15.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-prettier": "8.5.0",
     "eslint-import-resolver-node": "0.3.6",
     "eslint-import-resolver-webpack": "0.13.2",
-    "eslint-plugin-import": "2.25.4",
-    "eslint-plugin-jest": "26.1.1",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jest": "26.1.5",
     "eslint-plugin-jsx-a11y": "6.5.1",
     "eslint-plugin-prettier": "4.0.0",
-    "eslint-plugin-react": "7.29.3",
-    "eslint-plugin-react-hooks": "4.3.0",
+    "eslint-plugin-react": "7.29.4",
+    "eslint-plugin-react-hooks": "4.5.0",
     "husky": "4.3.8",
-    "lint-staged": "12.3.5",
+    "lint-staged": "12.4.1",
     "lodash": "4.17.21",
-    "prettier": "2.5.1",
-    "stylelint": "14.5.3",
-    "stylelint-config-css-modules": "3.0.0",
+    "prettier": "2.6.2",
+    "stylelint": "14.8.2",
+    "stylelint-config-css-modules": "4.1.0",
     "stylelint-config-recommended": "7.0.0"
   },
   "devDependencies": {
-    "@release-it/conventional-changelog": "2.0.1",
+    "@release-it/conventional-changelog": "5.0.0",
     "dotenv": "16.0.0",
-    "release-it": "14.6.2"
+    "release-it": "15.0.0"
   }
 }
