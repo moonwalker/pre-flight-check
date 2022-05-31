@@ -12,7 +12,8 @@ module.exports = {
     tagName: 'v${version}'
   },
   npm: {
-    publish: false
+    publish: false,
+    ignoreVersion: true
   },
   github: {
     draft: false,
