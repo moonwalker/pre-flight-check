@@ -4,8 +4,8 @@ module.exports = {
   ...config,
   git: {
     ...config,
-    commit: false,
-    push: false,
+    commit: true,
+    push: true,
     tag: false,
     requireCleanWorkingDir: false,
     requireUpstream: false
