@@ -13,7 +13,8 @@ module.exports = {
   },
   npm: {
     publish: false,
-    ignoreVersion: true
+    ignoreVersion: true,
+    allowSameVersion: true
   },
   github: {
     draft: false,
