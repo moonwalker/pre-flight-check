@@ -1,8 +1,8 @@
 {
   "extends": ["config:base"],
   "timezone": "Europe/Madrid",
-  "schedule": ["after 1am and before 6am every wednesday"],
-  "automergeSchedule": ["after 1am and before 6am every wednesday"],
+  "schedule": ["after 1am and before 6am on wednesday"],
+  "automergeSchedule": ["after 1am and before 6am on wednesday"],
   "prHourlyLimit": 10,
   "baseBranches": ["update-dependencies"],
   "automerge": true,
