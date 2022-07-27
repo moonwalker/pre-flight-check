@@ -50,6 +50,6 @@
   "devDependencies": {
     "@release-it/conventional-changelog": "5.0.0",
     "dotenv": "16.0.1",
-    "release-it": "15.1.4"
+    "release-it": "15.2.0"
   }
 }
