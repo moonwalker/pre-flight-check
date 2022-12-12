@@ -11,11 +11,7 @@ const setRulesSeverity = (ruleNames, severity = 'warn') =>
   );
 
 module.exports = {
-  extends: [
-    'airbnb',
-    './eslint-base',
-   'plugin:react-hooks/recommended'
-  ],
+  extends: ['airbnb', './eslint-base', 'plugin:react-hooks/recommended'],
   parser: '@babel/eslint-parser',
   parserOptions: {
     ecmaVersion: 6,
