@@ -1,22 +1,11 @@
-const { merge } = require('lodash');
-const { rules } = require('eslint-config-airbnb/rules/react');
-
-const setRulesSeverity = (ruleNames, severity = 'warn') =>
-  ruleNames.reduce(
-    (agg, ruleName) => ({
-      ...agg,
-      [ruleName]: merge([], rules[ruleName], [severity])
-    }),
-    {}
-  );
-
 module.exports = {
   extends: ['airbnb', './eslint-base', 'plugin:react-hooks/recommended'],
   env: {
-    es6: true
+    es6: true,
+    browser: true
   },
   rules: {
-    // correctly validate react-router Link
+    // Support react-router Link
     'jsx-a11y/anchor-is-valid': [
       'error',
       {
@@ -49,30 +38,40 @@ module.exports = {
       }
     ],
 
-    // @TODO
     'react/react-in-jsx-scope': 'off',
 
-    ...setRulesSeverity(
-      [
-        // helpful, but not required
-        'react/forbid-prop-types',
-        'react/require-default-props',
-        'react/prop-types',
-        'react/jsx-fragments',
-        'react/default-props-match-prop-types',
+    // Supported rules, but not enforced
+    'react/forbid-prop-types': 'warn',
+    'react/require-default-props': 'warn',
+    'react/prop-types': 'warn',
+    'react/jsx-fragments': 'warn',
+    'react/default-props-match-prop-types': 'warn',
+    'react/jsx-no-constructed-context-values': 'warn',
+    'react/no-unstable-nested-components': 'warn',
+    'react/no-unused-class-component-methods': 'warn',
 
-        // warn formatting rules
-        'react/destructuring-assignment',
-        'react/jsx-closing-tag-location',
-        'react/jsx-curly-newline',
-        'react/jsx-one-expression-per-line',
-        'react/jsx-wrap-multilines',
-        'react/sort-comp'
-      ],
-      'warn'
-    )
+    // Supported formatting rules, but not enforced
+    'react/destructuring-assignment': 'warn',
+    'react/jsx-closing-tag-location': 'warn',
+    'react/jsx-curly-newline': 'warn',
+    'react/jsx-one-expression-per-line': 'warn',
+    'react/jsx-wrap-multilines': 'warn',
+    'react/jsx-no-useless-fragment': 'warn',
+    'react/sort-comp': 'warn'
   },
+  overrides: [
+    {
+      files: ['**/*.ts', '**/*.tsx'],
+      rules: {
+        // Disable prop-types on .ts files
+        'react/prop-types': 'off',
+        'react/forbid-prop-types': 'off',
+        'react/require-default-props': 'off',
+        'react/default-props-match-prop-types': 'off'
+      }
+    }
+  ],
   settings: {
-    'import/extensions': ['.js', '.jsx']
+    'import/extensions': ['.js', '.jsx', '.ts', '.tsx']
   }
 };

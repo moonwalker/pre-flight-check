@@ -13,12 +13,15 @@ module.exports = {
   },
   rules: {
     // Enforce syntax, but warn
+    'arrow-body-style': 'warn',
     'arrow-parens': 'warn',
     'lines-between-class-members': 'warn',
     'max-len': 'warn',
     'no-extra-semi': 'warn',
     'prefer-destructuring': 'warn',
     'prettier/prettier': 'warn',
+    'class-methods-use-this': 'warn',
+    'default-param-last': 'warn',
     camelcase: 'warn',
     radix: 'warn',
 
