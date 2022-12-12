@@ -26,8 +26,8 @@
   },
   "author": "Vio <vio@moonwalker.tech> ",
   "dependencies": {
-    "@babel/core": "7.20.2",
-    "@babel/eslint-parser": "7.19.1",
+    "@typescript-eslint/eslint-plugin": "5.46.0",
+    "@typescript-eslint/parser": "5.46.0",
     "eslint": "8.28.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-prettier": "8.5.0",
@@ -50,6 +50,7 @@
   "devDependencies": {
     "@release-it/conventional-changelog": "5.1.1",
     "dotenv": "16.0.3",
-    "release-it": "15.5.0"
+    "release-it": "15.5.0",
+    "typescript": "^4.9.4"
   }
 }

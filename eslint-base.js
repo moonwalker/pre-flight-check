@@ -1,44 +1,37 @@
 module.exports = {
   extends: ['airbnb-base', 'prettier'],
-  parser: '@babel/eslint-parser',
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 6,
     sourceType: 'module',
     requireConfigFile: false
   },
-  plugins: ['jest', 'prettier'],
+  plugins: ['jest', 'prettier', '@typescript-eslint'],
   env: {
     node: true,
     'jest/globals': true
   },
   rules: {
-    // syntax enforcement, just warn
+    // Enforce syntax, but warn
     'arrow-parens': 'warn',
-    // syntax enforcement, just warn
-    camelcase: 'warn',
-    // we don't use comma dangle (yet)
-    'comma-dangle': 'off',
-    // not used - coliding with prettier
-    'implicit-arrow-linebreak': 'off',
-    // syntax enforcement, just warn
     'lines-between-class-members': 'warn',
-    // not used
-    'max-classes-per-file': 'off',
-    // syntax enforcement, just warn
     'max-len': 'warn',
-    // syntax enforcement, just warn
     'no-extra-semi': 'warn',
-    // not used
-    'operator-linebreak': 'off',
-    // syntax enforcement, just warn
     'prefer-destructuring': 'warn',
-    // syntax enforcement, just warn
+    'prettier/prettier': 'warn',
+    camelcase: 'warn',
     radix: 'warn',
 
-    // we use named exports
-    'import/prefer-default-export': 'off',
-    // preffer './sub-dir' instead of 'sub-dir'
+    // Disabled rules
+    'comma-dangle': 'off', // @TODO to reconsider
+    'max-classes-per-file': 'off',
+    'operator-linebreak': 'off',
+
+    'import/prefer-default-export': 'off', // we prefer named exports
     'import/no-useless-path-segments': 'off',
+    // Disable - coliding with prettier
+    'implicit-arrow-linebreak': 'off',
+
     // do not require dependencies on story files
     'import/no-extraneous-dependencies': [
       'error',
@@ -47,6 +40,13 @@ module.exports = {
       }
     ],
 
-    'prettier/prettier': ['warn']
+    'import/extensions': [
+      'error',
+      {
+        ts: 'never',
+        tsx: 'never',
+        json: 'always'
+      }
+    ]
   }
 };
