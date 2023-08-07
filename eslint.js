@@ -72,6 +72,11 @@ module.exports = {
     }
   ],
   settings: {
-    'import/extensions': ['.js', '.jsx', '.ts', '.tsx', '.d.ts']
+    'import/extensions': ['.js', '.jsx', '.ts', '.tsx', '.d.ts'],
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx', '.d.ts']
+      }
+    }
   }
 };
