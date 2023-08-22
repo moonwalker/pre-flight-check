@@ -955,11 +955,6 @@ array-buffer-byte-length@^1.0.0:
     call-bind "^1.0.2"
     is-array-buffer "^3.0.1"
 
-array-find@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/array-find/-/array-find-1.0.0.tgz#6c8e286d11ed768327f8e62ecee87353ca3e78b8"
-  integrity sha1-bI4obRHtdoMn+OYuzuhzU8o+eLg=
-
 array-ify@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/array-ify/-/array-ify-1.0.0.tgz#9e528762b4a9066ad163a6962a364418e9626ece"
@@ -1002,6 +997,16 @@ array-union@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/array-union/-/array-union-2.1.0.tgz#b798420adbeb1de828d84acd8a2e23d3efe85e8d"
   integrity sha512-HGyxoOTYUyCM6stUe6EJgnd4EoewAI7zMdfqO+kGjnlZmBDz/cR5pf8r/cR4Wq60sL/p0IkcjUEEPwS3GFrIyw==
+
+array.prototype.find@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/array.prototype.find/-/array.prototype.find-2.2.1.tgz#769b8182a0b535c3d76ac025abab98ba1e12467b"
+  integrity sha512-I2ri5Z9uMpMvnsNrHre9l3PaX+z9D0/z6F7Yt2u15q7wt0I62g5kX6xUKR1SJiefgG+u2/gJUmM8B47XRvQR6w==
+  dependencies:
+    call-bind "^1.0.2"
+    define-properties "^1.1.4"
+    es-abstract "^1.20.4"
+    es-shim-unscopables "^1.0.0"
 
 array.prototype.findlastindex@^1.2.2:
   version "1.2.2"
@@ -2256,12 +2261,12 @@ eslint-import-resolver-node@^0.3.7:
     is-core-module "^2.11.0"
     resolve "^1.22.1"
 
-eslint-import-resolver-webpack@0.13.3:
-  version "0.13.3"
-  resolved "https://registry.yarnpkg.com/eslint-import-resolver-webpack/-/eslint-import-resolver-webpack-0.13.3.tgz#7011999369169dc69af5fbd757f304cfee76d826"
-  integrity sha512-F6nYKpnZ+qNOfVn/uphs9qHIG3MGQZe3ZC6LChvpL871Sy3RR6AnvjjgKLxD5RE0ITDiqyzZxnDpFLRITQ1qvg==
+eslint-import-resolver-webpack@0.13.7:
+  version "0.13.7"
+  resolved "https://registry.yarnpkg.com/eslint-import-resolver-webpack/-/eslint-import-resolver-webpack-0.13.7.tgz#49cd0108767b1f8ff81123c7e1ae362305aad47b"
+  integrity sha512-2a+meyMeABBRO4K53Oj1ygkmt5lhQS79Lmx2f684Qnv6gjvD4RLOM5jfPGTXwQ0A2K03WSoKt3HRQu/uBgxF7w==
   dependencies:
-    array-find "^1.0.0"
+    array.prototype.find "^2.2.1"
     debug "^3.2.7"
     enhanced-resolve "^0.9.1"
     find-root "^1.1.0"
@@ -2270,7 +2275,7 @@ eslint-import-resolver-webpack@0.13.3:
     is-core-module "^2.13.0"
     is-regex "^1.1.4"
     lodash "^4.17.21"
-    resolve "^1.22.4"
+    resolve "^2.0.0-next.4"
     semver "^5.7.2"
 
 eslint-module-utils@^2.8.0:
