@@ -2,10 +2,9 @@
   "extends": ["config:base"],
   "timezone": "Europe/Madrid",
   "schedule": ["after 1am and before 6am on wednesday"],
-  "automergeSchedule": ["after 1am and before 6am on wednesday"],
-  "prHourlyLimit": 10,
+  "automergeSchedule": ["after 1am and before 8am on wednesday"],
+  "prHourlyLimit": 20,
   "baseBranches": ["update-dependencies"],
   "automerge": true,
-  "semanticCommits": "enabled",
-  "ignoreDeps": ["husky"]
+  "semanticCommits": "enabled"
 }
