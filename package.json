@@ -26,7 +26,7 @@
   },
   "author": "Vio <vio@moonwalker.tech> ",
   "dependencies": {
-    "@babel/core": "7.23.3",
+    "@babel/core": "7.23.5",
     "@babel/eslint-parser": "7.23.3",
     "@typescript-eslint/eslint-plugin": "6.9.0",
     "@typescript-eslint/parser": "6.9.0",
