@@ -19,7 +19,6 @@ module.exports = {
   github: {
     draft: false,
     release: false,
-    preRelease: false,
-    tokenRef: 'GITHUB_TOKEN'
+    preRelease: false
   }
 };
