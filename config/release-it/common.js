@@ -15,10 +15,5 @@ module.exports = {
     publish: false,
     ignoreVersion: true,
     allowSameVersion: true
-  },
-  github: {
-    draft: false,
-    release: false,
-    preRelease: false
   }
 };

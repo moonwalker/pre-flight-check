@@ -11,8 +11,8 @@ module.exports = {
     requireUpstream: false
   },
   github: {
-    ...config.github,
-    release: true
+    release: true,
+    autoGenerate: true
   },
   npm: {
     ...config.npm,
