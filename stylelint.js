@@ -2,7 +2,6 @@ module.exports = {
   extends: ['stylelint-config-recommended', 'stylelint-config-css-modules'],
   rules: {
     'rule-empty-line-before': null,
-    'no-missing-end-of-source-newline': null,
 
     // allow duplicated properties for mixins
     'declaration-block-no-duplicate-properties': null,
