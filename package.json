@@ -52,7 +52,7 @@
   "devDependencies": {
     "@release-it/conventional-changelog": "8.0.1",
     "dotenv": "16.4.5",
-    "release-it": "17.2.0",
+    "release-it": "17.2.1",
     "typescript": "5.4.5"
   }
 }
