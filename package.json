@@ -47,7 +47,7 @@
     "prettier": "3.3.2",
     "stylelint": "16.6.1",
     "stylelint-config-css-modules": "4.4.0",
-    "stylelint-config-recommended": "14.0.0"
+    "stylelint-config-recommended": "14.0.1"
   },
   "devDependencies": {
     "@release-it/conventional-changelog": "8.0.1",
