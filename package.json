@@ -50,7 +50,7 @@
     "stylelint-config-recommended": "14.0.1"
   },
   "devDependencies": {
-    "@release-it/conventional-changelog": "8.0.1",
+    "@release-it/conventional-changelog": "8.0.2",
     "dotenv": "16.4.5",
     "release-it": "17.6.0",
     "typescript": "5.5.4"
