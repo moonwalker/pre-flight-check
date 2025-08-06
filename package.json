@@ -53,6 +53,6 @@
     "@release-it/conventional-changelog": "10.0.1",
     "dotenv": "16.6.1",
     "release-it": "18.1.2",
-    "typescript": "5.8.3"
+    "typescript": "5.9.2"
   }
 }
