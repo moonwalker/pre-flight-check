@@ -46,7 +46,7 @@
     "lodash": "4.17.23",
     "prettier": "3.8.1",
     "stylelint": "16.26.1",
-    "stylelint-config-css-modules": "4.5.1",
+    "stylelint-config-css-modules": "4.6.0",
     "stylelint-config-recommended": "14.0.1"
   },
   "devDependencies": {
