@@ -2468,7 +2468,16 @@ eslint-config-prettier@10.1.8:
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-10.1.8.tgz#15734ce4af8c2778cc32f0b01b37b0b5cd1ecb97"
   integrity sha512-82GZUjRS0p/jganf6q1rEO25VSoHH0hKPCTrgillPjdI/3bgBhAE1QzHrHTizjpRvy6pGAvKjDJtk2pF9NDq8w==
 
-eslint-import-resolver-node@0.3.9, eslint-import-resolver-node@^0.3.9:
+eslint-import-resolver-node@0.3.10:
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.10.tgz#84ce3005abfc300588cf23bbac1aabec1fc6e8c1"
+  integrity sha512-tRrKqFyCaKict5hOd244sL6EQFNycnMQnBe+j8uqGNXYzsImGbGUU4ibtoaBmv5FLwJwcFJNeg1GeVjQfbMrDQ==
+  dependencies:
+    debug "^3.2.7"
+    is-core-module "^2.16.1"
+    resolve "^2.0.0-next.6"
+
+eslint-import-resolver-node@^0.3.9:
   version "0.3.9"
   resolved "https://registry.yarnpkg.com/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.9.tgz#d4eaac52b8a2e7c3cd1903eb00f7e053356118ac"
   integrity sha512-WFj2isz22JahUv+B788TlO3N6zL3nNJGU8CcZbPZvVEkBPaJdCV4vy5wyghty5ROFbCRnm132v8BScu5/1BQ8g==
@@ -4411,6 +4420,16 @@ new-github-release-url@2.0.0:
   dependencies:
     type-fest "^2.5.1"
 
+node-exports-info@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/node-exports-info/-/node-exports-info-1.6.0.tgz#1aedafb01a966059c9a5e791a94a94d93f5c2a13"
+  integrity sha512-pyFS63ptit/P5WqUkt+UUfe+4oevH+bFeIiPPdfb0pFeYEu/1ELnJu5l+5EcTKYL5M7zaAa7S8ddywgXypqKCw==
+  dependencies:
+    array.prototype.flatmap "^1.3.3"
+    es-errors "^1.3.0"
+    object.entries "^1.1.9"
+    semver "^6.3.1"
+
 node-fetch-native@^1.6.6:
   version "1.6.7"
   resolved "https://registry.yarnpkg.com/node-fetch-native/-/node-fetch-native-1.6.7.tgz#9d09ca63066cc48423211ed4caf5d70075d76a71"
@@ -5058,6 +5077,18 @@ resolve@^2.0.0-next.5:
   integrity sha512-U7WjGVG9sH8tvjW5SmGbQuui75FiyjAX72HX15DwBBwF9dNiQZRQAg9nnPhYy+TUnE0+VcrttuvNI8oSxZcocA==
   dependencies:
     is-core-module "^2.13.0"
+    path-parse "^1.0.7"
+    supports-preserve-symlinks-flag "^1.0.0"
+
+resolve@^2.0.0-next.6:
+  version "2.0.0-next.6"
+  resolved "https://registry.yarnpkg.com/resolve/-/resolve-2.0.0-next.6.tgz#b3961812be69ace7b3bc35d5bf259434681294af"
+  integrity sha512-3JmVl5hMGtJ3kMmB3zi3DL25KfkCEyy3Tw7Gmw7z5w8M9WlwoPFnIvwChzu1+cF3iaK3sp18hhPz8ANeimdJfA==
+  dependencies:
+    es-errors "^1.3.0"
+    is-core-module "^2.16.1"
+    node-exports-info "^1.6.0"
+    object-keys "^1.1.1"
     path-parse "^1.0.7"
     supports-preserve-symlinks-flag "^1.0.0"
 
