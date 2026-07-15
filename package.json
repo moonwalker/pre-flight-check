@@ -45,7 +45,7 @@
     "lint-staged": "16.4.0",
     "lodash": "4.18.1",
     "prettier": "3.9.5",
-    "stylelint": "17.13.0",
+    "stylelint": "17.14.0",
     "stylelint-config-css-modules": "4.6.0",
     "stylelint-config-recommended": "14.0.1"
   },
